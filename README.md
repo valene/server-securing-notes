@@ -1,10 +1,11 @@
-##Notes of simple server securing commands
+###Notes of simple server securing commands
+===========================================
 
 # The following are simple list of commands (for personal rememberance) on securing some of the VPS.
 
 * Listing currently use ip-tables rule
 
-    iptables -L (or) iptables -S
+    `iptables -L (or) iptables -S`
 
 * Flush currently stored rules 
 
