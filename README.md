@@ -9,11 +9,11 @@
 
 * Flush currently stored rules 
 
-    iptables -F
+    `iptables -F`
 
 * Location
 
-    /etc/iptables/rules.v{4,6}  --depends on ip v4 or v6
+    `/etc/iptables/rules.v{4,6}`  --depends on ip v4 or v6
 
 * below is a basic set for creating a ssh and webserver 
 
